@@ -1,5 +1,6 @@
-import React from 'react'
-import logo from "../../../public/assets/images/rg-software-solutions-logo.png"
+import React from 'react';
+import logo from "../../../public/assets/images/rg-software-solutions-logo.png";
+import Link from 'next/link';
 
 export default function Navbar() {
     return (
@@ -8,24 +9,46 @@ export default function Navbar() {
                 <div className="row">
                     <div className="col-12">
                         <nav className="main-nav">
-                            <a href="index.html" className="logo">
-                                {/* <h4>RG<span>Software Solutions</span></h4> */}
+                            <Link href="/" className="logo">
                                 <img src={logo.src} alt="" style={{ width: '250px', height: '60px', objectFit: "contain" }} />
-                            </a>
+
+                            </Link>
                             <ul className="nav">
-                                <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
-                                <li className="scroll-to-section"><a href="#about">About Us</a></li>
-                                <li className="scroll-to-section"><a href="#services">Services</a></li>
-                                <li className="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
-                                <li className="scroll-to-section"><div className="main-red-button"><a href="#contact">Contact Now</a></div></li>
+                                <li className="scroll-to-section">
+                                    <Link href="#top" className="active">
+                                        Home
+                                    </Link>
+                                </li>
+                                <li className="scroll-to-section">
+                                    <Link href="#about">
+                                        About Us
+                                    </Link>
+                                </li>
+                                <li className="scroll-to-section">
+                                    <Link href="#services">
+                                        Services
+                                    </Link>
+                                </li>
+                                <li className="scroll-to-section">
+                                    <Link href="#portfolio">
+                                        Portfolio
+                                    </Link>
+                                </li>
+                                <li className="scroll-to-section">
+                                    <div className="main-red-button">
+                                        <Link href="#contact">
+                                            Contact Now
+                                        </Link>
+                                    </div>
+                                </li>
                             </ul>
-                            <a className='menu-trigger'>
+                            <div className="menu-trigger">
                                 <span>Menu</span>
-                            </a>
+                            </div>
                         </nav>
                     </div>
                 </div>
             </div>
         </header>
-    )
+    );
 }

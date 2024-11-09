@@ -37,12 +37,12 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <script src="/vendor/jquery/jquery.min.js"></script>
-        <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="/assets/js/owl-carousel.js"></script>
-        <script src="/assets/js/animation.js"></script>
-        <script src="/assets/js/imagesloaded.js"></script>
-        <script src="/assets/js/templatemo-custom.js"></script>
+        <script src="/vendor/jquery/jquery.min.js" async></script>
+        <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js" async></script>
+        <script src="/assets/js/owl-carousel.js" async></script>
+        <script src="/assets/js/animation.js" async></script>
+        <script src="/assets/js/imagesloaded.js" async></script>
+        <script src="/assets/js/templatemo-custom.js" async></script>
       </body>
     </html>
   );

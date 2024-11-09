@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Contact() {
@@ -14,7 +15,7 @@ export default function Contact() {
                             </div>
                             <div className="phone-info">
                                 <h4>For any enquiry, Call Us:</h4><br />
-                                <h4 style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }} > <span><i className="fa fa-phone"></i> </span><a href="tel:+919325110270"><span style={{ textDecoration: 'none', color: 'white' }}>+91 93251 10270</span></a></h4>
+                                <h4 style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }} > <span><i className="fa fa-phone"></i> </span><Link href="tel:+919325110270"><span style={{ textDecoration: 'none', color: 'white' }}>+91 93251 10270</span></Link></h4>
                             </div>
                         </div>
                     </div>
