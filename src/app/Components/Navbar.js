@@ -43,9 +43,9 @@ export default function Navbar() {
                                     </div>
                                 </li>
                             </ul>
-                            <Link className="menu-trigger">
+                            <a className="menu-trigger">
                                 <span>Menu</span>
-                            </Link>
+                            </a>
                         </nav>
                     </div>
                 </div>
