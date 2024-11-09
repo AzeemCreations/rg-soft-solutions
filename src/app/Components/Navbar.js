@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../../public/assets/images/rg-software-solutions-logo.png";
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
     return (
@@ -9,8 +10,8 @@ export default function Navbar() {
                 <div className="row">
                     <div className="col-12">
                         <nav className="main-nav">
-                            <Link href="/" className="logo">
-                                <img src={logo.src} alt="" style={{ width: '250px', height: '60px', objectFit: "contain" }} />
+                            <Link href="#" className="logo">
+                                <Image src={logo} alt="" style={{ width: '250px', height: '60px', objectFit: "contain" }} />
 
                             </Link>
                             <ul className="nav">

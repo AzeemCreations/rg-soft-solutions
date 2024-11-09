@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function About() {
@@ -7,7 +8,7 @@ export default function About() {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <img src="assets/images/about-left-image.png" alt="person graphic" />
+                            <img src="assets/images/about-left-image.png" width="100%" height="auto" alt="RG Software Solutions Banner" />
                         </div>
                     </div>
                     <div className="col-lg-8 align-self-center">

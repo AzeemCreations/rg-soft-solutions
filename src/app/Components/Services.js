@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Services() {
@@ -7,7 +8,7 @@ export default function Services() {
                 <div className="row">
                     <div className="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div className="left-image">
-                            <img src="assets/images/services-left-1.png" alt="" />
+                            <img src="assets/images/services-left-1.png" width="100%" height="auto" alt="RG Software Solutions Banner" />
                         </div>
                     </div>
                     <div className="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Banner() {
@@ -19,7 +20,8 @@ export default function Banner() {
                             </div>
                             <div className="col-lg-6">
                                 <div className="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                                    <img src="assets/images/rg-banner.jpg" style={{ borderRadius: "33% 67% 11% 89% / 43% 44% 56% 57%" }} alt="team meeting" />
+                                    <img src="/assets/images/rg-banner.jpg" width="100%" height="auto" alt="RG Software Solutions Banner" />
+
                                 </div>
                             </div>
                         </div>

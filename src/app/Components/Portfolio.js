@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Portfolio() {
@@ -13,7 +14,7 @@ export default function Portfolio() {
                 </div>
                 <div className="row">
                     <div className="col-lg-3 col-sm-6">
-                        <a href="/">
+                        <Link href="/">
                             <div className="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                                 <div className="hidden-content">
                                     <h4>Web and App Dev</h4>
@@ -25,10 +26,10 @@ export default function Portfolio() {
 
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6">
-                        <a href="/">
+                        <Link href="/">
                             <div className="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                                 <div className="hidden-content">
                                     <h4>Full-Stack Dev</h4>
@@ -39,10 +40,10 @@ export default function Portfolio() {
                                     <i className="fa-solid fa-code"></i>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6">
-                        <a href="/">
+                        <Link href="/">
                             <div className="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div className="hidden-content">
                                     <h4>Design & Optimization</h4>
@@ -54,10 +55,10 @@ export default function Portfolio() {
 
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-lg-3 col-sm-6">
-                        <a href="/">
+                        <Link href="/">
                             <div className="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                                 <div className="hidden-content">
                                     <h4>API Integrations</h4>
@@ -68,7 +69,7 @@ export default function Portfolio() {
                                     <i className="fa-solid fa-database"></i>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
